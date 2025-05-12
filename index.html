@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro de Usuários</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  
+<!-- No Container se faz o cadastro -->
+
+  <div class="container">
+    <h1>Cadastro de Usuários</h1>
+    <form id="cadastroForm">
+
+      <!-- Campos para inserir os dados 'nome, email' -->
+
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" required />
+
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" required />
+
+<!-- Adicionei o campo telefone -->
+ <!-- Campo para inserir o dado 'telefone' -->
+
+      <label for="telefone">Telefone:</label>
+      <input type="text" id="telefone" required />
+
+      <!-- Botão para salvar o cadastro -->
+      <button type="submit">Salvar</button>
+    </form>
+
+    <!-- Lista aonde o usuario cadastrado aparecerá -->
+    <h2>Lista de Usuários</h2>
+    <ul id="listaUsuarios"></ul>
+  </div>
+
+
+</body>
+</html>
